@@ -44,4 +44,9 @@ class Page extends Model implements HasContentBlocks, HasHeroImageAttributes, Ha
     {
         return $this->getViewUrl($locale);
     }
+
+    public function setTranslation()
+    {
+        //TODO: remove this method call when the project has just one language.
+    }
 }
